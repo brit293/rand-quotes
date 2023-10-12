@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(246, 166, 166, 0.98);
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +10,11 @@
 
 .container {
     min-height: 90vh;
+}
+
+#new-quote-btn {
+    background-color: rgb(105, 103, 103);
+    border-color: rgb(105, 103, 103);
 }
 
 #quote-output {
